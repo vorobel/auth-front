@@ -10,7 +10,7 @@ Welcome to the Boilerplate React Project! This project serves as a starting poin
 
 ## About the Author
 
-This project is created by [Bohdan Vorobel](https://github.com/vorobel). You can contact Bohdan at bohdan.romanovich@gmail.com.
+This project is created by [Bohdan Vorobel](https://github.com/vorobel). You can contact me at bohdan.romanovich@gmail.com.
 
 ## Available Scripts
 
