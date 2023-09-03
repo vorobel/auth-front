@@ -1,0 +1,15 @@
+@import 'styles/global.scss';
+
+.underlinedLink {
+  display: inline;
+  color: $black;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $darkGray;
+  }
+  
+  &:active {
+    color: $deepGray;
+  }
+}

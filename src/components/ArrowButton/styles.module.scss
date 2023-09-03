@@ -1,0 +1,24 @@
+@import 'styles/global.scss';
+
+.arrowButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid $white;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: $white;
+    color: $white;
+    border: 2px solid $white;
+
+}
+
+.arrowDisabled {
+    border: 2px solid $gray;
+    color: $gray;
+    cursor: not-allowed;
+}

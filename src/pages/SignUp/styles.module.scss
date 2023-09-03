@@ -1,0 +1,35 @@
+@import 'styles/global.scss';
+
+.signUpPageContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.signUpFormContainer, .carouselContainer {
+    flex: 1 0;
+    width: 50%;
+}
+
+.signUpFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.authFormTitle {
+    margin-bottom: 64px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.authFormTip {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.appleAuthButton {
+    margin-top: 64px;
+    margin-bottom: 24px;
+}

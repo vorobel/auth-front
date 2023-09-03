@@ -1,0 +1,27 @@
+.loginPageContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.loginFormContainer, .carouselContainer {
+    flex: 1 0;
+    width: 50%;
+}
+
+.loginFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginFormTitle {
+    margin-bottom: 64px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.appleAuthButton {
+    margin-top: 64px;
+    margin-bottom: 24px;
+}

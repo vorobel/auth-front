@@ -1,0 +1,43 @@
+@import "styles/global.scss";
+
+.button {
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  &:hover {
+    background-color: black; 
+    color: white;
+  }
+  
+  &:active {
+    color: $white;
+    background-color: $deepGray;
+    border-color: $deepGray;
+  }
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.buttonDark {
+  background-color: $black;
+  color: $white;
+}
+
+.buttonLight {
+  background-color: $white;
+  border: 1px solid $black;
+}
